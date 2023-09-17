@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Validator</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav_logo">
+          <a href="#"><h4>E-Valdator</h4></a>
+        </div>
+        <div class="nav_link">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="main-container">
+        <div id="inputSection">
+          <h2 class="main-text">Enter The Email here</h2>
+          <form id="validForm" action="">
+            <input
+              id="emailId"
+              type="email"
+              placeholder="abc@domain.com"
+              required
+            />
+            <button id="emailBtn">Validate</button>
+          </form>
+        </div>
+        <div id="outputSection">
+          <h4 id="outputTitle">Your Result Will Show here</h4>
+          <div id="outputResult"></div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-text">
+          <p>Copyright <a href="#">@Shuvo</a> | All Right Reseved</p>
+        </div>
+      </div>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>

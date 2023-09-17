@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Ultra&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Ultra', serif; */
+}
+::selection {
+  background: black;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+html,
+body {
+  height: 100vh;
+  width: 100%;
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+nav {
+  height: 8vh;
+  min-width: 100%;
+  padding: 25px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: aquamarine;
+}
+
+.nav_logo {
+  width: 30%;
+}
+
+.nav_logo h4 {
+  font-family: 'Ultra', serif !important;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.nav_link {
+  font-size: 20px;
+  font-weight: 500;
+  width: 70%;
+  display: inline;
+}
+
+.nav_link ul {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 80px;
+}
+
+.nav_link li {
+  list-style: none;
+}
+.nav_link a:hover {
+  opacity: 0.5;
+}
+
+/* Main section Start */
+main {
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#inputSection {
+  min-height: 80%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* box-shadow: 8px 8px 13px 7px #d1d1d1; */
+}
+.main-text {
+  font-size: 30px;
+  font-weight: 550;
+  margin-bottom: 15px;
+}
+#validForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid black;
+  border-radius: 23px;
+}
+#emailId {
+  font-size: 22px;
+  border: 1px solid black;
+  padding: 5px 10px;
+  width: 350px;
+  text-align: center;
+  border-radius: 20px 0 0 20px;
+}
+#emailId:focus {
+  border: none;
+}
+#emailBtn {
+  font-size: 22px;
+  font-weight: 500;
+  padding: 5px 10px;
+  background: black;
+  color: white;
+  border: 1px solid black;
+  border-radius: 0 20px 20px 0;
+  cursor: pointer;
+}
+
+#outputSection {
+  width: 40%;
+  min-height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(127, 255, 212);
+  /* box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px,
+    rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px,
+    rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px,
+    rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px,
+    rgb(255, 85, 85) 40px -40px; */
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+#outputTitle {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'ultra' !important;
+  margin-bottom: 10px;
+  text-align: center;
+  color: black;
+}
+#outputResult {
+  font-size: 18px;
+  font-weight: 400;
+  color: black;
+}
+#outputResult > div::first-letter {
+  text-transform: uppercase;
+}
+/* Main section End */
+
+/* Footer section Start */
+footer {
+  height: 5vh;
+  min-width: 100%;
+  padding: 25px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aquamarine;
+}
+.footer-container {
+}
+.footer-text {
+}
+.footer-text p {
+}
+.footer-text a {
+}
+.footer-container a:hover {
+  opacity: 0.5;
+}
+
+/* Footer Section End */
