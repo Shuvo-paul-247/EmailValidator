@@ -1,3 +1,3 @@
 # EmailValidator
 ValidMail is your trusted solution for ensuring clean and accurate email lists. 
-### <a href="shuvo-paul-247.gihub.io/EmailValidator" target="_blank" rel="noopener noreferrer">LIVE LINK</a>
+### [**LIVE LINK**](https://shuvo-paul-247.github.io/EmailValidator){:target="_blank" rel="noopener noreferrer"}
